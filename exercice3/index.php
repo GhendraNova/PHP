@@ -11,6 +11,13 @@
     ?>
     <h1>exercice 3</h1>
 
+    <style>
+    .error {
+        color: red;
+        font-weight: bold;
+    }
+    </style>
+
     <?php
 
     if($admin) {
@@ -20,7 +27,7 @@
 
     } else {
         ?>
-        <p class="error">'Vous n etes pas admin'</p>
+        <p class="error">Vous n'etes pas admin</p>
 
         <?php
 }
