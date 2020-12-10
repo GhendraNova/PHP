@@ -1,6 +1,6 @@
 <?php
 
-    $info = [
+    $userInfos = [
         'name' => 'Jacques',
         'age'  => '54',
         'location' => 'UK',
@@ -20,9 +20,16 @@
     <?php
 
     echo '<pre>';
-    print_r($info);
+    print_r($userInfos);
     echo '</pre>';
 
     ?>
+
+    <style>
+        Jacques{
+            color: red;
+            text-decoration: bold;
+        }
+    </style>
 </body>
 </html>
