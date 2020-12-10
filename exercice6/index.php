@@ -6,19 +6,18 @@
     <title>Document</title>
 </head>
 <body>
+    <ul>
     <?php
 
     $names = ['Baptise', 'Jean', 'Marie','Jeanne','Joséphine','Marc','Bastien','Elise','Chris','Lana'];
 
-    echo '<pre> <ul>';
-    print_r($names);
+    // On boucle autant de fois qu'il y a d'éléments dans l'array $names.
+    for($i = 0; $i < count($names); $i++) {
 
-    for($names = 0; $names > 10; $names++) {
-
-        echo '<li>' . ($names) . '</li>';
+        echo '<li>' . $names[$i] . '</li>';
     }
-    echo '</ul> </pre>';
 
     ?>
+    </ul>
 </body>
 </html>
