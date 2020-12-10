@@ -11,9 +11,10 @@
 
     $names = ['Baptise', 'Jean', 'Marie','Jeanne','Joséphine','Marc','Bastien','Elise','Chris','Lana'];
 
+    $arrayLength = count($names);
+
     // On boucle autant de fois qu'il y a d'éléments dans l'array $names.
     for($i = 0; $i < count($names); $i++) {
-
         echo '<li>' . $names[$i] . '</li>';
     }
 
