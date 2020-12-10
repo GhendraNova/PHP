@@ -1,10 +1,3 @@
-<?php
-
-$userInfos =['name', 'birthdate'];
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
